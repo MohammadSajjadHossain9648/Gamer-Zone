@@ -214,7 +214,21 @@ section{
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
+    .header nav{
+        margin: 30px 100px;
+    }
 
+    .header .banner{
+        padding-right: 100px;
+        gap: 15px;
+    }
+    .header .banner .banner_container{
+        padding: 80px 100px;
+    }
+
+    .header .banner .banner_img_container{
+        width: 426px;
+    }
 }
 
 
