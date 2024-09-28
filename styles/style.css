@@ -64,13 +64,22 @@
     background-color: var(--white_color);
     color: var(--pink_color);
 }
+section{
+    margin: 30px 160px;
+}
 /* mobile responsive design */
 @media screen and (max-width: 576px){
-
+    /* common style */
+    section{
+        margin: 30px;
+    }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    /* common style */
+    section{
+        margin: 30px 120px;
+    }
 }
 
 
@@ -84,7 +93,8 @@
 
 
 
-/*  */
+/* header section */
+
 /* mobile responsive design */
 @media screen and (max-width: 576px){
 
