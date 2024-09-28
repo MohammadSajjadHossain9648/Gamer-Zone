@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+    max-width: 1280px;
+}
+:root{
+    --bg_white_color: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+    --bg_pink_color: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    --description_color: rgb(83, 76, 100);
+    --blue_color: rgb(11, 2, 35);
+    --pink_color: rgb(255, 66, 165);
+    --white_color: rgb(255, 255, 255);
+    --shade_white_color: rgba(255, 255, 255, 0.6);
+}
+.text_linear_color{
+    background-color: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner_title1{
+    font-size: 2.01rem; /* 48px */
+    font-weight: 600;
+    color: var(--blue_color);
+}
+.banner_title2{
+    font-size: 3.98rem; /* 95px */
+    font-weight: 800;
+    color: var(--blue_color);
+}
+.title{
+    font-size: 2.01rem; /* 48px */
+    font-weight: 700;
+    color: var(--blue_color);
+}
+.description1{
+    color: var(--description_color);
+    font-size: 0.84rem; /* 20px */
+    font-weight: 500;
+}
+.description2{
+    color: var(--description_color);
+    font-size: 0.754rem; /* 18px */
+}
+.btn{
+    font-size: 0.84rem; /* 20px */
+    font-weight: 600;
+    padding: 14px 27px;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--pink_color);
+    color: var(--white_color);
+}
+.btn_blue{
+    background-color: rgb(78, 197, 247);
+    color: var(--white_color);
+}
+.btn_white{
+    background-color: var(--white_color);
+    color: var(--pink_color);
+}
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive design */
+@media screen and (max-width: 576px){
+
+}
+/* tablet responsive design */
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+}
