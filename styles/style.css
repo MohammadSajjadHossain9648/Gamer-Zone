@@ -17,8 +17,11 @@
     --white_color: rgb(255, 255, 255);
     --shade_white_color: rgba(255, 255, 255, 0.6);
 }
-.text_linear_color{
-    background-color: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
+#brand_description_letter{
+    color: var(--pink_color);
+}
+#text_linear_color{
+    background-image: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
