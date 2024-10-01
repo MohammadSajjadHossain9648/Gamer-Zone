@@ -207,6 +207,9 @@ section{
         grid-area: container1;
         padding: 30px 130px;
     }
+    .header .banner .banner_container .btn1{
+        margin-right: 5px;
+    }
 
     .header .banner .banner_img_container{
         grid-area: container2;
@@ -277,7 +280,24 @@ section{
 }
 /* mobile responsive design */
 @media screen and (max-width: 576px){
+    .gamer{
+        padding: 30px;
+        background-image: none;
+        grid-template-columns: 1fr;
+    }
 
+    .gamer .gamer_container{
+        align-items: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .gamer .gamer_container .description2, .gamer_container_footer{
+        text-align: center;
+    }
+    .gamer .gamer_container .gamer_container_footer{
+        margin-top: 30px;
+        text-align: center;
+    }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
