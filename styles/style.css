@@ -82,7 +82,7 @@
     color: var(--pink_color);
 }
 section{
-    margin: 30px 160px;
+    margin: 80px 160px;
 }
 /* mobile responsive design */
 @media screen and (max-width: 576px){
@@ -327,7 +327,8 @@ section{
 
 
 
-/*  */
+/* video section */
+
 /* mobile responsive design */
 @media screen and (max-width: 576px){
 
