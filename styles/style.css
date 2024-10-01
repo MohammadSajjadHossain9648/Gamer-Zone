@@ -229,6 +229,9 @@ section{
     .header .banner .banner_container{
         padding: 80px 100px;
     }
+    .header .banner .banner_container .btn1{
+        margin-right: 5px;
+    }
 
     .header .banner .banner_img_container{
         width: 426px;
@@ -301,7 +304,15 @@ section{
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
+    .gamer{
+        padding: 37px 100px;
+        grid-template-columns: 1.05fr 0.95fr;
+        gap: 20px;
+    }
 
+    .gamer .gamer_container{
+        gap: 16px;
+    }
 }
 
 
