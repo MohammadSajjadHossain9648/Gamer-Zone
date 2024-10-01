@@ -328,6 +328,55 @@ section{
 
 
 /* video section */
+.video .video_header{
+    width: 50%;
+    margin: 0 auto 32px;
+    text-align: center;
+}
+.video .video_header .title{
+    padding-bottom: 10px;
+}
+.video .video_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+.video .video_container .video_container_item .video_img_container{
+    position: relative;
+    height: 270px;
+    border-radius: 11px;
+    margin-bottom: 16px;
+}
+.video .video_container .video_container_item .video_img_container .video_img{
+    height: 100%;
+    width: 100%;
+}
+.video .video_container .video_container_item .video_img_container .video_hover_container{
+    display: none;
+}
+.video .video_container .video_container_item .video_img_container .video_img:hover ~.video_hover_container{
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 11px;
+}
+.video .video_container .video_container_item .video_img_container .video_hover_container .video_hover_icon{
+    height: 35px;
+    width: 35px;
+}
+.video .video_container .video_container_item .video_img_container .video_hover_container .description1{
+    font-weight: 600;
+    color: var(--pink_color);
+}
 
 /* mobile responsive design */
 @media screen and (max-width: 576px){
