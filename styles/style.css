@@ -540,7 +540,31 @@ section{
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-    
+    .play .play_container .play_img_container .play_hover_image{
+        height: 205px;
+        width: 173px;
+    }
+    .play .play_container .play_img_container .play_original_image{
+        height: 350px;
+        width: 90%;
+    }
+
+    .play .play_container_top{
+        width: 100%;
+        float: none;
+    }
+    .play .play_container_top .play_img_container .play_hover_image{
+        margin-left: -50px;
+    }
+
+
+    .play .play_container_bottom .play_text_container{
+        width: 40%;
+    }
+    .play .play_container_bottom .play_img_container .play_hover_image{
+        margin-right: -95px;
+        margin-bottom: -80px;
+    }
 }
 
 
