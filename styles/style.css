@@ -95,7 +95,7 @@ section{
 @media screen and (min-width: 577px) and (max-width: 992px){
     /* common style */
     section{
-        margin: 30px 120px;
+        margin: 30px 100px;
     }
 }
 
@@ -305,7 +305,7 @@ section{
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
     .gamer{
-        padding: 37px 100px;
+        padding: 37px 100px 37px 80px;
         grid-template-columns: 1.05fr 0.95fr;
         gap: 20px;
     }
@@ -413,7 +413,28 @@ section{
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .video .video_header{
+        width: 70%;
+    }
+    .video .video_container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "item1 item2 item3"
+                             "empty item4 empty2";
+        gap: 20px;
+    }
+    .video .video_container_item:nth-child(1){
+        grid-area: item1;
+    }
+    .video .video_container_item:nth-child(2){
+        grid-area: item2;
+    }
+    .video .video_container_item:nth-child(3){
+        grid-area: item3;
+    }
+    .video .video_container_item:nth-child(4){
+        grid-area: item4;
+    }
 }
 
 
