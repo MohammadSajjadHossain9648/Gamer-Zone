@@ -22,6 +22,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+#text_pink_color{
+    color: var(--pink_color);
+}
 .brand_container{
     display: flex;
     align-items: center;
@@ -57,10 +60,12 @@
     color: var(--description_color);
     font-size: 0.84rem; /* 20px */
     font-weight: 500;
+    line-height: 20px;
 }
 .description2{
     color: var(--description_color);
     font-size: 0.754rem; /* 18px */
+    line-height: 20px;
 }
 .btn{
     font-size: 0.84rem; /* 20px */
@@ -450,7 +455,62 @@ section{
 
 
 /* play section */
+.play .play_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play .play_container .play_text_container .description2{
+    padding: 16px 0;
+}
+.play .play_container .play_img_container .play_hover_image{
+    height: 245px;
+    width: 213px;
+}
+.play .play_container .play_img_container .play_original_image{
+    height: 400px;
+    width: 100%;
+}
 
+.play .play_container_top{
+    width: 70%;
+    float: right;
+}
+.play .play_container_top .play_text_container{
+    width: 30%;
+    text-align: end;
+}
+.play .play_container_top .play_img_container{
+    position: relative;
+    margin-bottom: 70px;
+}
+.play .play_container_top .play_img_container .play_original_image{
+    float: right;
+}
+.play .play_container_top .play_img_container .play_hover_image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: -90px;
+    margin-bottom: -50px;
+}
+
+.play .play_container_bottom{
+    flex-direction: row-reverse;
+}
+.play .play_container_bottom .play_text_container{
+    width: 34%;
+}
+.play .play_container_bottom .play_img_container{
+    position: relative;
+}
+.play .play_container_bottom .play_img_container .play_hover_image{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: -95px;
+    margin-bottom: -80px;
+}
 /* mobile responsive design */
 @media screen and (max-width: 576px){
 
