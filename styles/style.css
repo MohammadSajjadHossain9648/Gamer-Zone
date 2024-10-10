@@ -607,6 +607,45 @@ section{
 
 
 /* career section */
+.career{
+    background-color: var(--pink_color);
+    color: var(--white_color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 550px;
+}
+.career .career_container{
+    padding: 80px 0 80px 160px;
+}
+.career .career_container .title{
+    padding-bottom: 20px;
+}
+.career .career_container .title, .description2, li{
+    color: var(--white_color);
+}
+.career .career_container .career_ul_container{
+    padding: 20px 0;
+    display: flex;
+    gap: 70px;
+}
+.career .career_container .career_ul_container .career_second_ul{
+    text-align: end;
+}
+.career .career_container .career_ul_container ul li{
+    list-style: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.career .career_img_container{
+    height: 100%;
+    width: 100%;
+}
+.career .career_img_container img{
+    height: 100%;
+    width: 100%;
+}
 /* mobile responsive design */
 @media screen and (max-width: 576px){
 
