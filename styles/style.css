@@ -140,6 +140,8 @@ section{
     font-size: 0.754rem; /* 18px */
     font-weight: 500;
     color: rgb(60, 53, 79);
+}
+.header nav ul li a{
     cursor: pointer;
 }
 .header nav ul button{
