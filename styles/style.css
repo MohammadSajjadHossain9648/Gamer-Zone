@@ -740,7 +740,46 @@ section{
 
 
 /* footer section */
-
+.footer{
+    background-color: var(--blue_color);
+    padding: 80px 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 38px;
+}
+.footer .brand_container .brand_title{
+    color: var(--white_color);
+}
+.footer .footer_icons_container{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    height: 26px;
+    width: 26px;
+}
+.footer ul{
+    display: flex;
+    gap: 40px;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+}
+.footer .footer_list1_container{
+    justify-content: space-between;
+}
+.footer .footer_list1_container a{
+    text-decoration: none;
+    color: var(--white_color);
+}
+.footer .footer_last_container p{
+    text-align: center;
+    padding: 12px 0;
+}
 /* mobile responsive design */
 @media screen and (max-width: 576px){
 
