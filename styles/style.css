@@ -710,13 +710,16 @@ section{
 /* mobile responsive design */
 @media screen and (max-width: 576px){
     .games{
-        padding: 30px ;
+        padding: 30px;
         row-gap: 40px;
     }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .games{
+        padding: 80px 100px;
+        row-gap: 30px;
+    }
 }
 
 
