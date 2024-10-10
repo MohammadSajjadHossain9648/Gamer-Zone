@@ -68,6 +68,11 @@
     font-size: 0.754rem; /* 18px */
     line-height: 20px;
 }
+.description3{
+    color: var(--shade_white_color);
+    font-size: 0.67rem; /* 16px */
+    line-height: 20px;
+}
 .btn{
     font-size: 0.84rem; /* 20px */
     font-weight: 600;
@@ -734,6 +739,7 @@ section{
 
 
 
+/* footer section */
 
 /* mobile responsive design */
 @media screen and (max-width: 576px){
