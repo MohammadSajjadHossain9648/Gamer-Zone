@@ -755,12 +755,16 @@ section{
 .footer .footer_icons_container{
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 30px;
     height: 26px;
+}
+.footer .footer_icons_container img{
+    height: 100%;
     width: 26px;
 }
 .footer ul{
     display: flex;
+    justify-content: center;
     gap: 40px;
 }
 .footer ul li{
@@ -768,9 +772,6 @@ section{
 }
 .footer ul li a{
     text-decoration: none;
-}
-.footer .footer_list1_container{
-    justify-content: space-between;
 }
 .footer .footer_list1_container a{
     text-decoration: none;
@@ -782,7 +783,24 @@ section{
 }
 /* mobile responsive design */
 @media screen and (max-width: 576px){
-
+    .footer{
+        padding: 80px 120px;
+    }
+    .footer ul{
+     flex-wrap: wrap;
+     justify-content: center;
+    }
+    .footer .footer_icons_container{
+        flex-wrap: wrap;
+        gap: 50px;
+        margin: 20px 0;
+        height: auto;
+        width: 60%;
+    }
+    .footer .footer_last_container p{
+        width: 60%;
+        margin: 40px auto;
+    }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
