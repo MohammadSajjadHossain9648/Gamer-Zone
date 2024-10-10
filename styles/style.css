@@ -623,7 +623,7 @@ section{
 .career .career_container .title{
     padding-bottom: 20px;
 }
-.career .career_container .title, .description2, li{
+.career .career_container .title, .career_container .description2, .career_container .career_ul_container ul li{
     color: var(--white_color);
 }
 .career .career_container .career_ul_container{
