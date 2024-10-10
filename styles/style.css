@@ -657,7 +657,12 @@ section{
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .career{
+        grid-template-columns: 1.1fr 0.9fr;
+    }
+    .career .career_container{
+        padding: 80px 0 80px 100px;
+    }
 }
 
 
