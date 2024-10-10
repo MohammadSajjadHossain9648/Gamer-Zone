@@ -678,6 +678,34 @@ section{
 
 
 /* games section */
+.games{
+    background-image: url('../images/header_bg.png');
+    padding: 80px 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.games .btn{
+    padding: 7px 15px 7px 8px;
+    display: flex;
+    align-items: center;
+}
+.games .btn img{
+    height: 30px;
+    width: 30px;
+}
+.games .btn .title{
+    font-size: 0.84rem; /* 20px */
+    font-weight: 600;
+    margin-left: 10px;
+}
+.games .btn:hover{
+    border: 1px solid var(--pink_color);
+}
+.games .btn:hover .games_title{
+    color: var(--pink_color);
+}
 /* mobile responsive design */
 @media screen and (max-width: 576px){
 
