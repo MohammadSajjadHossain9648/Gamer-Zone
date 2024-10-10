@@ -609,10 +609,8 @@ section{
 /* career section */
 .career{
     background-color: var(--pink_color);
-    color: var(--white_color);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 550px;
 }
 .career .career_container{
     padding: 80px 0 80px 160px;
@@ -626,7 +624,7 @@ section{
 .career .career_container .career_ul_container{
     padding: 20px 0;
     display: flex;
-    gap: 70px;
+    justify-content: space-between;
 }
 .career .career_container .career_ul_container .career_second_ul{
     text-align: end;
@@ -648,7 +646,14 @@ section{
 }
 /* mobile responsive design */
 @media screen and (max-width: 576px){
-
+    .career{
+        grid-template-columns: 1fr;
+        padding: 30px;
+        gap: 50px;
+    }
+    .career .career_container{
+        padding: 0;
+    }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
