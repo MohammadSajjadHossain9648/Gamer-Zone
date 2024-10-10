@@ -804,5 +804,7 @@ section{
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
-
+    .footer{
+        padding: 80px 200px;
+    }
 }
