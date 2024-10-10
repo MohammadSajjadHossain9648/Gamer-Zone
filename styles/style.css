@@ -685,6 +685,7 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    row-gap: 20px;
 }
 .games .btn{
     padding: 7px 15px 7px 8px;
@@ -708,7 +709,10 @@ section{
 }
 /* mobile responsive design */
 @media screen and (max-width: 576px){
-
+    .games{
+        padding: 30px ;
+        row-gap: 40px;
+    }
 }
 /* tablet responsive design */
 @media screen and (min-width: 577px) and (max-width: 992px){
